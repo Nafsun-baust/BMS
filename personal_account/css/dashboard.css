@@ -1,0 +1,372 @@
+body {
+    width: 100%;
+}
+.main {
+    background-color: #EEEEEE;
+}
+.trx_div {
+    width: 900px;
+    height: 400px;
+    background-color: white;
+    margin: 60px 0 0 30px;
+    border-radius: 15px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+.bh h4 {
+    text-align: left;
+    margin-left: 30px;
+}
+
+th,
+td {
+    width: 20%;
+    height: 5px;
+    font-size: 12px;
+}
+
+.sl {
+    width: 10%;
+}
+
+.trx_div h4 {
+    margin: 5px 0 0 20px;
+}
+
+.trx_div {
+    padding-top: 10px;
+}
+
+.balancediv {
+    height: 150px;
+    width: 250px;
+    background-color: #b9e8ed;
+    border-radius: 15px;
+    padding-top: 10px;
+}
+
+.balancediv h4 {
+    margin: 2px 0 0 15px;
+}
+
+.taka {
+    height: 25px;
+    width: 25px;
+    margin-top: 6px;
+    margin-left: 10px;
+}
+
+.tb {
+    margin: 8px 0 10px 15px;
+}
+
+.fa-circle-up {
+    margin: 13px 0 0 65px;
+    font-size: 15px;
+    color: #00b894;
+}
+
+.fa-circle-down,
+.fa-square-up-right {
+    margin: 13px 0 0 140px;
+    font-size: 15px;
+    color: #00b894;
+}
+
+.per {
+    font-size: 13px;
+    margin: 11px 0 0 5px;
+    color: #00b894;
+    font-weight: bold;
+}
+
+.trx {
+    margin: 10px 0 0 13px;
+}
+
+.card {
+    width: 320px;
+    height: 190px;
+    -webkit-perspective: 600px;
+    -moz-perspective: 600px;
+    perspective: 600px;
+
+}
+
+.card__part {
+    box-shadow: 1px 1px #aaa3a3;
+    top: 0;
+    position: absolute;
+    z-index: 1000;
+    left: 0;
+    display: inline-block;
+    width: 320px;
+    height: 190px;
+    background-image: url('../logo/map2.png'), linear-gradient(to right bottom, #fd696b, #fa616e, #f65871, #f15075, #ec4879);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 8px;
+
+    -webkit-transition: all .5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    -moz-transition: all .5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    -ms-transition: all .5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    -o-transition: all .5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition: all .5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+}
+
+.card__front {
+    padding: 18px;
+    -webkit-transform: rotateY(0);
+    -moz-transform: rotateY(0);
+}
+
+.card__back {
+    padding: 18px 0;
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+}
+
+.card__black-line {
+    margin-top: 5px;
+    height: 38px;
+    background-color: #303030;
+}
+
+.card__logo {
+    height: 16px;
+}
+
+.card__front-logo {
+    position: absolute;
+    top: 18px;
+    right: 18px;
+}
+
+.card__square {
+    border-radius: 5px;
+    height: 30px;
+}
+
+.card_numer {
+    display: block;
+    width: 100%;
+    word-spacing: 4px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.card__space-75 {
+    width: 75%;
+    float: left;
+}
+
+.card__space-25 {
+    width: 25%;
+    float: left;
+}
+
+.card__label {
+    font-size: 10px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.8);
+    letter-spacing: 1px;
+}
+
+.card__info {
+    margin-bottom: 0;
+    margin-top: 5px;
+    font-size: 16px;
+    line-height: 18px;
+    color: #fff;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.card__back-content {
+    padding: 15px 15px 0;
+}
+
+.card__secret--last {
+    color: #303030;
+    text-align: right;
+    margin: 0;
+    font-size: 14px;
+}
+
+.card__secret {
+    padding: 5px 12px;
+    background-color: #fff;
+    position: relative;
+}
+
+.card__secret:before {
+    content: '';
+    position: absolute;
+    top: -3px;
+    left: -3px;
+    height: calc(100% + 6px);
+    width: calc(100% - 42px);
+    border-radius: 4px;
+    background: repeating-linear-gradient(45deg, #ededed, #ededed 5px, #f9f9f9 5px, #f9f9f9 10px);
+}
+
+.card__back-logo {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+}
+
+.card__back-square {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+}
+
+.card:hover .card__front {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+
+}
+
+.card:hover .card__back {
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+}
+
+.card_name {
+    color: white;
+    font-size: 23px;
+    margin: 0 0 0 110px;
+}
+
+.card__back-logo {
+
+    color: white;
+    font-size: 23px;
+    margin-bottom: 18px;
+
+}
+
+.card {
+    margin-left: 20px;
+}
+.debit_card {
+    position: relative;
+    background-image: url("../../logo/map2.png");
+    background-size: cover;
+    padding: 25px;
+    border-radius: 28px;
+    width: 320px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+
+}
+
+header,
+.logo {
+    margin-top: -5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    width: 40px;
+
+}
+
+.temp {
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+}
+
+header .chip {
+    width: 40px;
+}
+
+.cn,
+.valid {
+    color: #fff;
+    font-size: 10px;
+    font-weight: 200;
+}
+
+.number {
+    margin-top: -3px;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.name {
+    margin-top: 0px;
+}
+
+.container .card-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.valid-date {
+    margin-left: 200px;
+}
+
+.bh {
+    margin-top: 60px;
+    border-radius: 20px;
+    width: 640px;
+    height: 400px;
+    background-color: #fff;
+    padding-top: 10px;
+    padding-left: 15px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    margin-left: 30px;
+
+}
+
+.chrtbh {
+    text-align: center;
+    height: 400px;
+    width: 600px;
+}
+
+.mf2 {
+    margin-left: 30px;
+    margin-top: 60px;
+    border-radius: 20px;
+    width: 95%;
+    height: 400px;
+    background-color: #fff;
+    padding-top: 10px;
+    padding-left: 15px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+
+}
+
+.pie {
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    border-radius: 15px;
+    padding-top: 10px;
+    margin-top: 60px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    margin-left: 35px;
+}
+
+.pie h4 {
+    margin: 5px 0 0 20px;
+}
+
+.piediv {
+    height: 350px;
+    width: 350px;
+}

@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+.about {
+    width: 35%;
+    box-sizing: border-box;
+}
+
+.about a {
+    /* padding: 8px; */
+}
+
+.contact {
+    width: 30%;
+    margin-left: 5%;
+}
+
+.contact2 {
+    width: 30%;
+    margin-left: 2%;
+    margin-top: 3%;
+}
+
+.contact_us {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.head_office {
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.tel {
+    font-weight: bold;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f1f1f1;
+    position: relative;
+    padding-bottom: 58px;
+    min-height: 100vh;
+}
+
+
+footer {
+    text-align: center;
+    /* background-color: #079992; */
+    background-color: #0e2238;
+    color: #ecf0f1;
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+}
